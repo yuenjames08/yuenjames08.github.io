@@ -1,16 +1,41 @@
 body {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
 	background-color: #469dd4;
-    background-image: url("bg.jpg");
-    background-size: cover;
+  background-image: url("bg.jpg");
+  background-size: cover;
+
+  margin: 10px 15%;
+}
+
+a {
+  text-decoration: none;
+  color: #898989;
+}
+
+a:hover {
+  color: #03C0FF;
+}
+
+img {
+  padding: 5px;
+  margin: 5px;
+  display: block;
+  width: 95%;
+  height: 95%;
+}
+
+.inline {
+  display: inline-block;
 }
 
 .box{
 	padding: 5px;
 	margin: 5px;
 	background-color: #333333;
-    opacity: 85%;
+  opacity: 85%;
+  display: inline-block;
+  width: 100%;
 }
 
 .box h1, .box h2, .box p, .box a, .box canvas{
@@ -18,18 +43,18 @@ body {
 }
 
 .hbox{
-    display: inline-block;
-    padding: 5px;
+  display: inline-block;
+  padding: 5px;
 }
 
 .project{
-    display: inline-block;
-    padding: 5px;
-    width: 20%;
+  display: inline-block;
+  padding: 5px;
+  width: 20%;
 }
 
 .project img {
-    width: 100%;
+  width: 100%;
 }
 
 .nav ul{
@@ -55,5 +80,5 @@ body {
 /* Change the link color to #111 (black) on hover */
 .nav li a:hover {
   background-color: #d0d0d0;
-  color: #469dd4;
+  color: #000;
 }
