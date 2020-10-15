@@ -2,7 +2,7 @@ body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: white;
 	background-color: #469dd4;
-    background-image: url("//d14nx13ylsx7x8.cloudfront.net/repo_assets/assets/000/038/076/original/bg.jpg");
+    background-image: url("bg.jpg");
     background-size: cover;
 }
 
